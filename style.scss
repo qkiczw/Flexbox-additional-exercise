@@ -125,6 +125,7 @@ body {
   }
 }
 
+//About us
 .section-about-us{
 
   display: flex;
@@ -156,6 +157,34 @@ body {
 
   .about-us-content p{
     font-size: 17px;
+  }
+}
+
+//Gallery
+.section-gallery .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-gallery{
+  min-height: 500px;
+  background-color: yellow;
+
+
+  .gallery-text{
+    width: 400px;
+  }
+
+  .gallery-text h1{
+    font-size: 60px;
+  };
+
+//  images from gallery
+  .gallery-images {
+    
+  }
+  .gallery-img-01{
+    max-width: 400px;
   }
 }
 

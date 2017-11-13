@@ -108,6 +108,21 @@ body {
   .section-about-us .about-us-content p {
     font-size: 17px; }
 
+.section-gallery .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.section-gallery {
+  min-height: 500px;
+  background-color: yellow; }
+  .section-gallery .gallery-text {
+    width: 400px; }
+  .section-gallery .gallery-text h1 {
+    font-size: 60px; }
+  .section-gallery .gallery-img-01 {
+    max-width: 400px; }
+
 .site-footer {
   background: #262626;
   color: white; }
