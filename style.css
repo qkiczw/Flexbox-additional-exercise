@@ -141,12 +141,26 @@ body {
     justify-content: space-between;
     max-width: 35%; }
     .section-gallery .frame02 img {
-      max-width: 91%; }
+      max-width: 93%; }
   .section-gallery .frame03 {
     max-width: 100%;
     display: flex; }
     .section-gallery .frame03 img {
       max-width: 100%; }
+  .section-gallery .view-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px; }
+  .section-gallery .view-more-button {
+    border: 1px solid #007899;
+    text-decoration: none;
+    background-color: #007899;
+    color: white;
+    padding: 5px 10px;
+    margin: auto 15px;
+    box-shadow: 1px 1px 5px #000000;
+    font-size: 1.3em; }
 
 .site-footer {
   background: #262626;
